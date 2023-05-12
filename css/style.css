@@ -1,0 +1,140 @@
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*GENERAL*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.conteiner {
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+
+}
+/*MAIN*/
+
+main {
+    background-color: black;
+    width: 100%;
+    height: calc(100vh - 80px);
+    padding-bottom: 50px;
+    
+    
+}
+
+.speaker-view {
+    color: white;
+    margin-bottom: 50px;
+    text-align: end;
+}
+
+.cameras {
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc((100% / 7) - 6px);
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    position: relative;
+    
+    
+}
+
+.info-cameras {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+main .speaker-view > * {
+    display: inline-block;
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 5px;
+}
+
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.chevron {
+    font-size: 0.3em;
+    text-align: center;
+    
+}
+
+.buttons {
+    width: calc(100% / 3);
+    
+}
+
+.buttons > * {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.small-buttons {
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.small-buttons > * {
+    padding-right: 20px;
+}
+
+
+h4 {
+    color: red;
+    font-size: 0.5em;
+    background-color: rgba(211, 211, 211, 0.5);
+    line-height: 80px;
+    width: fit-content;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.info-buttons {
+    line-height: 0.1em;
+    text-align: center;
+}
+
+h5 {
+    font-size: 0.3em;
+    display: inline-block;
+    padding-right: 10px;
+}
